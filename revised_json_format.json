@@ -1,0 +1,120 @@
+{
+    "last_update": "28-10-2015",
+    "user": {
+        "is_logged_in": true,
+        "user_id": 5,
+        "user_email": "test@test.com",
+		"user_fullname": "test user",
+		"user_accounttype":"cust",
+		"user_pricelevel":"W"
+    },
+    "shapes": {
+        "rectangle": "full-url/to/image/thumb/size-size.png",
+        "runner": "full-url/to/image/thumb/size-size.png"
+    },
+    "materials": [
+        {
+            "material_id": 1,
+            "material_name": "Wool",
+			"constructions": [
+				{
+					"construction_name": "Machine Made",
+					"construction_id": 1,
+					"colors": [
+						{
+							"name": "red",
+							"thumb": "url/to/color/thumb-size.png",
+							"hex": "f0f0f0",
+							"pantone": "19-2041"
+						},
+						{
+							"name": "green",
+							"thumb": "url/to/color/thumb-size.png",
+							"hex": "e2f2f2",
+							"pantone": "19-6311"
+						}
+					]
+				},
+				{
+					"construction_name": "Robo Tufted",
+					"construction_id": 2,
+					"colors": [
+						{
+							"name": "red",
+							"thumb": "url/to/color/thumb-size.png",
+							"hex": "f0f0f0",
+							"pantone": "19-2041"
+						},
+						{
+							"name": "green",
+							"thumb": "url/to/color/thumb-size.png",
+							"hex": "e2f2f2",
+							"pantone": "19-6311"
+						}
+					]
+				},
+				{
+					"construction_name": "Hand Knotted",
+					"construction_id": 3,
+					"colors": [
+						{
+							"name": "red",
+							"thumb": "url/to/color/thumb-size.png",
+							"hex": "f0f0f0",
+							"pantone": "19-2041"
+						},
+						{
+							"name": "green",
+							"thumb": "url/to/color/thumb-size.png",
+							"hex": "e2f2f2",
+							"pantone": "19-6311"
+						}
+					]
+				}
+			],
+            "options": [
+                {
+                    "option_id": "any_unique_id",
+                    "displayName": "Select Pile Height",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "name": "1/2 inch",
+                            "value": 1.2
+                        },
+                        {
+                            "name": "1 inch",
+                            "value": 1
+                        },
+                        {
+                            "name": "2 inch",
+                            "value": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "patterns": [
+        {
+            "groupName": "GEOMETRIC",
+            "images": [
+                {
+                    "image_id": "any_unique_id",
+                    "thumb": "full-url/to/image/thumb/size-size.png",
+                    "large": "full-url/to/image/large-image/size-size.png",
+                    "layers": [
+                        {
+                            "layer_id": "any_unique_id",
+                            "displayName": "Base color"
+                        },
+                        {
+                            "layer_id": "any_unique_id",
+                            "displayName": "Lines color"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
